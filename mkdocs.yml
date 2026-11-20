@@ -1,0 +1,66 @@
+# Project
+site_name: Aura Venue - a worked example by TrustSource
+site_url: https://aura-venue.trustsource.io
+site_description: >-
+  Documents the procedure and the design decisions of the Aura Venue example: a fictional
+  connected audio product, used to show what product security documentation under the
+  Cyber Resilience Act looks like in practice
+site_author: TrustSource Team
+# Repository
+repo_url: https://github.com/trustsource/aura-venue-controller
+edit_uri: ""    # prevents the edit button to link into URL
+
+# Copyright
+copyright: Copyright &copy; 2026 <a href="https://www.eacg.de/editorial">EACG GmbH</a>, own content licensed under CC BY-SA 4.0
+
+# The structure of the site is still to be defined.
+nav:
+  - Overview: 'index.md'
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  font: false # set false, to comply with data privacy (google fonts)
+  logo: assets/TS_logo_lang.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - header.autohide
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+extra_css:
+  - assets/stylesheet.css
+
+extra:
+  homepage: https://www.trustsource.io
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/trustsource
+      name: TrustSource @ Linkedin
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:support@trustsource.io

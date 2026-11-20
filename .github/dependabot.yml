@@ -1,0 +1,11 @@
+# Only the GitHub Actions used in .github/workflows are kept current here.
+#
+# This repository will hold example components that are deliberately outdated or vulnerable. They
+# are input for analysis, never installed or shipped. Do not add their ecosystems here, and dismiss
+# alerts for them as "not used".
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"

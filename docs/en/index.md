@@ -10,9 +10,13 @@ kept from the first day, as the Cyber Resilience Act expects?
 
 ![System overview](assets/system-overview.svg)
 
-The engineering PC loads the control application onto the controller. The controller drives the
-amplifiers over the network. Purple parts are built by Aurelia Audio (with open source inside), the
-coral part is purchased as a binary without source code.
+## Where to start
+
+- [The products](products.md): what the three devices do and who is involved.
+- Components, each with a short technical description, an architecture sketch and links to the
+  architecture files in its repository:
+  [Venue Studio](components/studio.md), [Venue Controller](components/controller.md),
+  [Venue OS](components/os.md), [Venue Amp firmware](components/firmware.md).
 
 ## The repositories
 
@@ -26,7 +30,6 @@ coral part is purchased as a binary without source code.
 ## Status
 
 The project has just started. The repositories contain structure and concepts, no product code yet.
-The structure of this documentation is still being defined.
 
 ## Good to know
 

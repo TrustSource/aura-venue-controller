@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="342" viewBox="0 0 680 342" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Venue Studio</title>
+<rect width="680" height="342" fill="#FFFFFF"/>
+<rect x="20" y="16" width="640" height="276" rx="14" fill="#FAFAF7" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="40" y="40" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Venue Studio</text>
+<rect x="40" y="58" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="74" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Oberfläche</text>
+<text x="56" y="92" font-size="12" fill="#534AB7" dominant-baseline="central">Editor für Konfiguration und Logik, npm-Pakete</text>
+<rect x="40" y="116" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="132" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Desktop-Anwendung</text>
+<text x="56" y="150" font-size="12" fill="#534AB7" dominant-baseline="central">Projektverwaltung, Verbindung zum Controller, .NET-Pakete</text>
+<rect x="40" y="174" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="190" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Mitinstallierte Fremd-Laufzeit</text>
+<text x="56" y="208" font-size="12" fill="#993C1D" dominant-baseline="central">kommt über den Installer, steht in keinem Paketmanifest</text>
+<rect x="40" y="232" width="600" height="48" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="56" y="248" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Beispiel-Steuerlogik</text>
+<text x="56" y="266" font-size="12" fill="#5F5E5A" dominant-baseline="central">vom Integrator geschrieben, verweist auf Funktionsbibliotheken</text>
+<rect x="20" y="316" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="38" y="322" font-size="12" fill="#5F5E5A" dominant-baseline="central">von Aurelia Audio gebaut</text>
+<rect x="203" y="316" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="221" y="322" font-size="12" fill="#5F5E5A" dominant-baseline="central">zugekauft, ohne Quellcode</text>
+<rect x="393" y="316" width="12" height="12" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="411" y="322" font-size="12" fill="#5F5E5A" dominant-baseline="central">von Dritten oder anderem Repository</text>
+</svg>

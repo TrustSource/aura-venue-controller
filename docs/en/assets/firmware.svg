@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="458" viewBox="0 0 680 458" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Venue Amp firmware</title>
+<rect width="680" height="458" fill="#FFFFFF"/>
+<rect x="20" y="16" width="640" height="392" rx="14" fill="#FAFAF7" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="40" y="40" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Venue Amp firmware</text>
+<rect x="40" y="58" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="74" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Application</text>
+<text x="56" y="92" font-size="12" fill="#534AB7" dominant-baseline="central">command handling, device state, supervision</text>
+<rect x="40" y="116" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="132" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Update</text>
+<text x="56" y="150" font-size="12" fill="#534AB7" dominant-baseline="central">stores a new image in the external flash and switches over</text>
+<rect x="40" y="174" width="600" height="48" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="56" y="190" font-size="14" font-weight="500" fill="#085041" dominant-baseline="central">Network stack and TLS</text>
+<text x="56" y="208" font-size="12" fill="#0F6E56" dominant-baseline="central">copied into the project, partly modified</text>
+<rect x="40" y="232" width="600" height="48" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="56" y="248" font-size="14" font-weight="500" fill="#085041" dominant-baseline="central">Real-time kernel</text>
+<text x="56" y="266" font-size="12" fill="#0F6E56" dominant-baseline="central">tasks, timers, drivers</text>
+<rect x="40" y="290" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="306" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Signal-processor program</text>
+<text x="56" y="324" font-size="12" fill="#534AB7" dominant-baseline="central">filters, limiter, delay</text>
+<rect x="40" y="348" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="364" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Mainboard</text>
+<text x="56" y="382" font-size="12" fill="#534AB7" dominant-baseline="central">microcontroller, flash, network, signal processor, power stage</text>
+<rect x="20" y="432" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="38" y="438" font-size="12" fill="#5F5E5A" dominant-baseline="central">built by Aurelia Audio</text>
+<rect x="190" y="432" width="12" height="12" rx="2" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="208" y="438" font-size="12" fill="#5F5E5A" dominant-baseline="central">open source</text>
+</svg>

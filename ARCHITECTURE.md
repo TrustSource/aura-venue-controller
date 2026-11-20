@@ -1,6 +1,6 @@
 # Architecture: aura-venue-controller
 
-Version 0.1.0 · 2026-11-20 · Diagram: [ARCHITECTURE.drawio](ARCHITECTURE.drawio) (pages "System" and
+Version 0.2.0 · 2026-11-20 · Diagram: [ARCHITECTURE.drawio](ARCHITECTURE.drawio) (pages "System" and
 "Hardware")
 
 ## System overview and purpose
@@ -10,7 +10,7 @@ control application from the engineering software, executes it in a purchased ru
 amplifiers over the network. This repository assembles everything that makes up the controller
 except the operating system.
 
-![System overview](docs/assets/system-overview.svg)
+![System overview](docs/en/assets/system-overview.svg)
 
 ## Components and responsibilities
 
@@ -22,6 +22,10 @@ except the operating system.
 | Controller services | Device management, update, audio routing | Aurelia Audio | `services/` (planned) |
 | Operating system (`venue-controller-rootfs`) | Embedded Linux | platform team | aura-venue-os, linked module |
 | Mainboard | Processor, memory, network, secure element, service ports | Aurelia Audio, real parts | `hardware/` |
+
+The building blocks have architecture files of their own: [webui/ARCHITECTURE.md](webui/ARCHITECTURE.md),
+[services/ARCHITECTURE.md](services/ARCHITECTURE.md),
+[vendor/logiccore/ARCHITECTURE.md](vendor/logiccore/ARCHITECTURE.md).
 
 "Firmware" of the controller means the whole package of operating system, runtime, web UI and
 services that is installed on the device as one image.
@@ -53,8 +57,8 @@ attached to the product node.
 
 ### Documentation site
 
-This repository also hosts the documentation of the whole Aura Venue example. `docs/` and
-`mkdocs.yml` are built with Zensical (Material design, same look as the ts-scan documentation) by
+This repository also hosts the documentation of the whole Aura Venue example, in English
+(`docs/en`, `mkdocs.yml`) and German (`docs/de`, `mkdocs.de.yml`, served under `/de/`). Both are built with Zensical (Material design, same look as the ts-scan documentation) by
 the workflow `.github/workflows/docs.yml` and published to GitHub Pages at
 `https://aura-venue.trustsource.io`. The workflow runs on changes to the
 documentation on `main`. No analytics and no web fonts are loaded.
@@ -136,7 +140,7 @@ documentation on `main`. No analytics and no web fonts are loaded.
 
 ## Open decisions
 
-- Structure of the documentation site; whether the measurement log is part of it.
+- Further structure of the documentation site; whether the measurement log is part of it.
 - Protocols between Studio, controller and amplifier.
 - Ethernet PHY of the controller: Microchip KSZ9031 (current choice) or Qualcomm AR8031 (used on
   NXP's evaluation kit).

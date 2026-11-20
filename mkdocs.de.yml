@@ -1,0 +1,87 @@
+# German site, built into site/de. Keep in step with mkdocs.yml.
+# Project
+site_name: Aura Venue - ein Praxisbeispiel von TrustSource
+site_url: https://aura-venue.trustsource.io/de/
+site_description: >-
+  Dokumentiert Vorgehen und Entwurfsentscheidungen des Beispiels Aura Venue: ein erfundenes
+  vernetztes Audioprodukt, an dem gezeigt wird, wie Product-Security-Dokumentation nach dem
+  Cyber Resilience Act in der Praxis aussieht
+site_author: TrustSource Team
+# Repository
+repo_url: https://github.com/trustsource/aura-venue-controller
+edit_uri: ""    # prevents the edit button to link into URL
+
+# Copyright
+copyright: Copyright &copy; 2026 <a href="https://www.eacg.de/editorial">EACG GmbH</a>, eigene Inhalte unter CC BY-SA 4.0
+
+docs_dir: docs/de
+site_dir: site/de
+
+nav:
+  - Überblick: 'index.md'
+  - Produkte: 'products.md'
+  - Komponenten:
+    - Venue Studio: 'components/studio.md'
+    - Venue Controller:
+      - 'components/controller.md'
+      - Weboberfläche: 'components/controller-webui.md'
+      - Controller-Dienste: 'components/controller-services.md'
+      - Laufzeit: 'components/controller-runtime.md'
+    - Venue OS: 'components/os.md'
+    - Firmware Venue Amp: 'components/firmware.md'
+
+theme:
+  name: material
+  language: de
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Dunkle Darstellung
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Helle Darstellung
+  font: false # set false, to comply with data privacy (google fonts)
+  logo: assets/TS_logo_lang.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - header.autohide
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+extra_css:
+  - assets/stylesheet.css
+
+extra:
+  homepage: https://www.trustsource.io
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/trustsource
+      name: TrustSource @ Linkedin
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:support@trustsource.io

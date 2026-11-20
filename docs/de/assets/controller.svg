@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="458" viewBox="0 0 680 458" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Venue Controller</title>
+<rect width="680" height="458" fill="#FFFFFF"/>
+<rect x="20" y="16" width="640" height="392" rx="14" fill="#FAFAF7" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="40" y="40" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Venue Controller</text>
+<rect x="40" y="58" width="600" height="48" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="56" y="74" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Steuerlogik</text>
+<text x="56" y="92" font-size="12" fill="#5F5E5A" dominant-baseline="central">Logik einer Anlage, vom Integrator geschrieben</text>
+<rect x="40" y="116" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="132" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Laufzeit</text>
+<text x="56" y="150" font-size="12" fill="#993C1D" dominant-baseline="central">führt die Steuerlogik aus</text>
+<rect x="40" y="174" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="190" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Weboberfläche</text>
+<text x="56" y="208" font-size="12" fill="#534AB7" dominant-baseline="central">Konfigurationsseiten, die das Gerät ausliefert</text>
+<rect x="40" y="232" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="248" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Controller-Dienste</text>
+<text x="56" y="266" font-size="12" fill="#534AB7" dominant-baseline="central">Geräteverwaltung, Update, Audio-Verteilung</text>
+<rect x="40" y="290" width="600" height="48" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="56" y="306" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Linux-Betriebssystem</text>
+<text x="56" y="324" font-size="12" fill="#5F5E5A" dominant-baseline="central">aus aura-venue-os, als Linked Module eingebunden</text>
+<rect x="40" y="348" width="600" height="48" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="56" y="364" font-size="14" font-weight="500" fill="#3C3489" dominant-baseline="central">Hauptplatine</text>
+<text x="56" y="382" font-size="12" fill="#534AB7" dominant-baseline="central">Prozessor, Speicher, Netzwerk, Sicherheitsbaustein, Service-Zugänge</text>
+<rect x="20" y="432" width="12" height="12" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="38" y="438" font-size="12" fill="#5F5E5A" dominant-baseline="central">von Dritten oder anderem Repository</text>
+<rect x="274" y="432" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="292" y="438" font-size="12" fill="#5F5E5A" dominant-baseline="central">zugekauft, ohne Quellcode</text>
+<rect x="464" y="432" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="482" y="438" font-size="12" fill="#5F5E5A" dominant-baseline="central">von Aurelia Audio gebaut</text>
+</svg>

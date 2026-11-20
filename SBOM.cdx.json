@@ -2,14 +2,14 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:603fae41-0299-431c-84b8-8795b2e8ac01",
-  "version": 1,
+  "version": 2,
   "metadata": {
     "timestamp": "2026-11-20T00:00:00Z",
     "component": {
       "type": "application",
-      "bom-ref": "aura-venue-controller@0.1.0",
+      "bom-ref": "aura-venue-controller@0.2.0",
       "name": "aura-venue-controller",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Aura Venue Controller (fictional example product by TrustSource)",
       "licenses": [
         {
@@ -34,7 +34,7 @@
     {
       "aggregate": "complete",
       "assemblies": [
-        "aura-venue-controller@0.1.0"
+        "aura-venue-controller@0.2.0"
       ]
     }
   ]

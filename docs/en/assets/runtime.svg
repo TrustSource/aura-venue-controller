@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="342" viewBox="0 0 680 342" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Runtime (LogicCore)</title>
+<rect width="680" height="342" fill="#FFFFFF"/>
+<rect x="20" y="16" width="640" height="276" rx="14" fill="#FAFAF7" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="40" y="40" font-size="14" font-weight="500" fill="#444441" dominant-baseline="central">Runtime (LogicCore)</text>
+<rect x="40" y="58" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="74" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Runtime binary</text>
+<text x="56" y="92" font-size="12" fill="#993C1D" dominant-baseline="central">no source code; contains open-source components that are not visible from outside</text>
+<rect x="40" y="116" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="132" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Supplier SBOM</text>
+<text x="56" y="150" font-size="12" fill="#993C1D" dominant-baseline="central">CycloneDX, in the supplier's naming</text>
+<rect x="40" y="174" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="190" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Supplier advisory</text>
+<text x="56" y="208" font-size="12" fill="#993C1D" dominant-baseline="central">CSAF with VEX statements</text>
+<rect x="40" y="232" width="600" height="48" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="56" y="248" font-size="14" font-weight="500" fill="#712B13" dominant-baseline="central">Release notes</text>
+<text x="56" y="266" font-size="12" fill="#993C1D" dominant-baseline="central">version and changes as text</text>
+<rect x="20" y="316" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text x="38" y="322" font-size="12" fill="#5F5E5A" dominant-baseline="central">purchased, no source code</text>
+</svg>

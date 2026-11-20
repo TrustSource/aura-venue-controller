@@ -1,3 +1,4 @@
+# English site. The German site is built from mkdocs.de.yml into site/de.
 # Project
 site_name: Aura Venue - a worked example by TrustSource
 site_url: https://aura-venue.trustsource.io
@@ -13,12 +14,25 @@ edit_uri: ""    # prevents the edit button to link into URL
 # Copyright
 copyright: Copyright &copy; 2026 <a href="https://www.eacg.de/editorial">EACG GmbH</a>, own content licensed under CC BY-SA 4.0
 
-# The structure of the site is still to be defined.
+docs_dir: docs/en
+site_dir: site
+
 nav:
   - Overview: 'index.md'
+  - Products: 'products.md'
+  - Components:
+    - Venue Studio: 'components/studio.md'
+    - Venue Controller:
+      - 'components/controller.md'
+      - Web UI: 'components/controller-webui.md'
+      - Controller services: 'components/controller-services.md'
+      - Runtime: 'components/controller-runtime.md'
+    - Venue OS: 'components/os.md'
+    - Venue Amp firmware: 'components/firmware.md'
 
 theme:
   name: material
+  language: en
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -58,6 +72,13 @@ extra_css:
 
 extra:
   homepage: https://www.trustsource.io
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
   social:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/company/trustsource

@@ -6,6 +6,7 @@ on:
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
+      - 'mkdocs.de.yml'
       - '.github/workflows/docs.yml'
   workflow_dispatch:
 
@@ -35,7 +36,10 @@ jobs:
         with:
           python-version: '3.13'
       - run: pip install zensical==0.1.2
-      - run: zensical build --clean
+      - name: Build English site
+        run: zensical build --clean
+      - name: Build German site into site/de
+        run: zensical build --config-file mkdocs.de.yml
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site
